@@ -12,7 +12,7 @@ class Sidebar extends React.Component {
     }
     render() {
         return( <div className="sidebar" id="sideBar">
-            <div onClick={this.handleClick} style={width: 600} className="nav_icon">
+            <div onClick={this.handleClick} style={{width: 600} className="nav_icon">
                 <div className="bar"></div>
                 <div className="bar bar2"></div>
                 <div className="bar"></div>
