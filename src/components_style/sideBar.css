@@ -1,0 +1,53 @@
+
+.sidebar {
+    position: absolute;
+    width: 10%;
+    max-width: 70px;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    background-color: rgb(92, 90, 90);
+    overflow-x: hidden;
+}
+.nav_icon {
+width: 100%;
+max-width: 70px;
+height: auto;
+background-color: rgb(92, 90, 90);
+margin:  10px auto;
+padding: 3px;
+margin-bottom: 25px;
+cursor: pointer;
+}
+.bar {
+    width: 60%;
+    height: 2px;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+    margin: 5px auto;
+}
+.bar2 {
+    width: 30%;
+    transition-duration:.6s;
+}
+.nav_icon:hover .bar2 {
+    width: 60%;
+
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.block h3, .block p {
+display: none;
+}
+img {
+    margin: 10px auto;
+    width: 20px;
+    height: 20px;   
+}
