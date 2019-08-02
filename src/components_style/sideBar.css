@@ -1,6 +1,6 @@
 
 .sidebar {
-    position: absolute;
+    position: fixed;
     width: 10%;
     max-width: 70px;
     min-width: 50px;
