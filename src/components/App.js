@@ -2,15 +2,14 @@ import React from 'react';
 import {BrowserRouter, Switch, Link, Route} from 'react-router-dom'
 import Sidebar from './sideBar.js'
 import Layout from './layout.js'
-import Description from './descriptionBar'
+import Enterprise from '../pages/enterprise'
 
 function App() {
   return (
     <BrowserRouter>
-  <Description section="empresa"/>
-      {/*<Route path={'/'} component={Layout} >
-
-  </Route>*/}
+      <Layout >
+<Route exact path={'/'} component={Enterprise} />
+  </Layout>
     </BrowserRouter>
   );
 }
