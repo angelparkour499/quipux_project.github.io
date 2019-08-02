@@ -60,7 +60,7 @@ class Sidebar extends React.Component {
 
             <div className={this.state.bar_1 ? "link show" : "link"}>
                 
-                <Link to={"#"} className={this.state.bar_1 ? "link show" : "link"}>&#8213; Empresas
+                <Link to={"/"} onClick={this.handleClick} style={{textDecoration: 'none'}} className={this.state.bar_1 ? "link show" : "link"}>&#8213; Empresas
                 
                 </Link>
                 </div></div>
@@ -73,7 +73,7 @@ class Sidebar extends React.Component {
                                     <i className={this.state.bar_2 ? "fa fa-angle-down appear turn" : this.state.active ? "fa fa-angle-down appear" : "fa fa-angle-down"}></i>
                 </div>
             <div className={this.state.bar_2 ? "link show" : "link"}>
-                <Link to={"#"} className={this.state.bar_2 ? "link show" : "link"}>&#8213; Artículos</Link></div></div>       
+                <Link to={"/article"} onClick={this.handleClick} style={{textDecoration: 'none'}} className={this.state.bar_2 ? "link show" : "link"}>&#8213; Artículos</Link></div></div>       
         </div>)
     }
 }

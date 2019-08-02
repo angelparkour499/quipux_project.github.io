@@ -20,8 +20,7 @@
         to { width: 10%;
         max-width: 70px}
 }
-Link {
-    text-decoration: none;}
+
 .nav_icon {
 width: 100%;
 max-width: 70px;
@@ -70,7 +69,7 @@ padding-top: 17px;
     margin: 5px auto;
 }
 .bar2 {
-    width: 30%;
+    width: 20%;
     transition-duration:.6s;
 }
 .nav_icon:hover .bar2 {
