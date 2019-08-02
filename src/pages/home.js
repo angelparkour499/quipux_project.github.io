@@ -1,8 +1,11 @@
 import React from 'react'
 import "../components_style/home.scss"
+import Description_bar from '../components/descriptionBar'
+
 class Home extends React.Component {
     render() {
         return(<React.Fragment>
+            <Description_bar section="NOMBRE EMPRESA" />
          <div className="structure_2">
              <div className="content_wrapper">
              <div className="content_wrapper_1">

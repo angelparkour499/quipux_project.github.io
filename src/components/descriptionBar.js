@@ -5,7 +5,12 @@ import User from "../assets/user-img.png"
 import Home_icon from "../assets/house.svg"
 
 class Description extends React.Component {
-
+   componentDidUpdate(prevProps) {
+      if (this.props.location !== prevProps.location) {
+        this.onRouteChanged();
+      }
+    }
+onRouteChanged = () => console.log("route has changed")
 render() {
     return( <div className="topBar">
        <div className="indicator"><Link to={'/'}><img src={Home_icon}/></Link> <h2 className="target"> EMPRESAS /</h2>
