@@ -20,6 +20,8 @@
         to { width: 10%;
         max-width: 70px}
 }
+Link {
+    text-decoration: none;}
 .nav_icon {
 width: 100%;
 max-width: 70px;
