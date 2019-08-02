@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Muli|Nunito+Sans&display=swap');
+
+.structure_2 {
+    width: 100%;
+    height: 92vh;
+    background-color: #eff4fc;
+    box-shadow:3px 3px 5px #b1c7f1
+}
+.content_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content_wrapper_1 {
+    width: 600px;
+    height: auto;
+    min-height: 620px;
+    margin: 20px 0 0 40px;
+    background-color: #ffffff;
+border-radius: 3px;
+border: solid .4px lightcyan;
+padding: 15px;
+}
+.content_wrapper_1 {
+    font-family: muli, sans-serif;
+    h2 {
+        font-weight: bold;
+        font-size: 20px;
+        font-variant: small-caps;
+    }
+    ul {
+        font-size: 14px;
+        text-align: center;
+        color: #545454;
+    
+    li {
+        margin: 35px 0;
+    }
+    }
+}
+.content_wrapper_2 {
+    width: 700px;
+@extend .content_wrapper_1
+
+}
+.content_wrapper_2 {
+    ul {
+        width: 50%;
+        height: 100%;
+    }
+    ul:first-of-type {
+        border-right: solid .6px lightgray
+    }
+}
+.divider {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 20px;
+}
+ul {list-style: none;}
